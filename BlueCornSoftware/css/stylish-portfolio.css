@@ -154,8 +154,8 @@ hr.small {
     -o-background-size: cover;
     color: white;
     text-shadow: 2px 2px 7px #777;
-    z-index: -2;
-    filter: grayscale(40%);
+
+    filter: hue-rotate(-22deg);
 }
 
 
