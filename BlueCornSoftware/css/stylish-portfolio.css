@@ -8,6 +8,36 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+@keyframes draw{
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes fill{
+    100%{
+        fill: black;
+    }
+}
+
+.blue{
+    fill: none;
+    stroke-width: 2px;
+    stroke: black;
+    stroke-dasharray: 1832px;
+    stroke-dashoffset: 1832px;
+    animation: draw 2s linear forwards;
+}
+.corn{
+    fill: none;
+    stroke-width: 2px;
+    stroke: black;
+    stroke-dasharray: 1032px;
+    stroke-dashoffset: 1032px;
+    animation: draw 2s linear forwards;
+}
+
+
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
